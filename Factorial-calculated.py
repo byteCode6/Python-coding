@@ -12,9 +12,7 @@ def factorial (a):
             fact *= b
         return fact # calculated the factorial
    
-# Get user input in integer numbers  
-
-# chake if the input is valid
+# Get user input and chak it is valid
 try:
     user_input = int(input('Enter your number: '))
     result = factorial(user_input)
@@ -24,7 +22,8 @@ try:
             print('I will try again.')
     elif result is not None :
         print('Factorial of', user_input,'is =', result)
-except ValueError("Opps! That's not a number. Please try again."):
+except ValueError:
+    print("Opps! That's not a number. Please try again.")
     
         
             

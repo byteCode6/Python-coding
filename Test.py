@@ -1,6 +1,6 @@
 def factrial (f):
     if f < 0 :
-        return "Factrial is not Defined for negtive number."
+        return "Eroor: Factrial is not Defined for negtive number."
     elif f == 0:
         return 1
     else:

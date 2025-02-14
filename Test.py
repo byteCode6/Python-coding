@@ -1,15 +1,6 @@
-def factrial (f):
-    if f < 0 :
-        return "Eroor: Factrial is not Defined for negtive number."
-    elif f == 0:
-        return 1
-    else:
-        result = 1
-        for i in range(1, f+1):
-            result *= i
-        return result
+from playsound2 import playsound
 
-a = factrial(5)
-print(a,'!')   
-    
-    
+import time
+playsound("output.mp3")
+time.sleep(1)
+os.remove("output.mp3")

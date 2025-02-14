@@ -1,0 +1,17 @@
+2025-02-13 21:51:38,456 - Error in speak function: [WinError 32] The process cannot access the file because it is being used by another process: 'voice_4433.mp3'
+2025-02-13 21:51:38,457 - Chatbot session started.
+2025-02-13 21:51:56,809 - Error in ask_gpt function: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-02-13 21:52:29,428 - Chatbot session ended by user.
+2025-02-13 23:08:32,084 - Error in speak function: Failed to connect. Probable cause: Unknown
+2025-02-13 23:08:32,085 - Chatbot session started.
+2025-02-13 23:08:57,151 - Error in speak function: Failed to connect. Probable cause: Unknown
+2025-02-13 23:08:57,151 - Chatbot session started.
